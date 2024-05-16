@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital@0;1&display=swap');
+
+.navBarButton{
+    width: 100%;
+    font-family: 'Raleway';
+    font-size: 170%;
+    font-weight: 200;
+    color: white;
+    background-color: #003366;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.navBarButton:hover{
+    transform: scale(104%);
+    background-color: #002c59;
+    transition: 0.2s ease-in-out;
+}

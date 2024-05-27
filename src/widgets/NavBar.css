@@ -1,0 +1,9 @@
+.NavBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}

@@ -8,12 +8,11 @@
     padding-top: 1%;
     padding-bottom: 1%;
     color: white;
-    background-color: #003366;
+    background-color: transparent;
     border: none;
     transition: 0.2s ease-in-out;
 }
 .navBarButton:hover{
-    transform: scale(104%);
-    background-color: #002c59;
+    color: #002c59;
     transition: 0.2s ease-in-out;
 }

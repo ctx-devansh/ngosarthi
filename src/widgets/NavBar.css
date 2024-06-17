@@ -1,6 +1,12 @@
+.NavBarWrapper{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .NavBar{
-    position: -webkit-sticky;
-    position: sticky;
+    width: 70%;
     top: 0;
     z-index: 100000;
     display: flex;

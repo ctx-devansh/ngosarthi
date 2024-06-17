@@ -4,10 +4,13 @@ import Impact from './Impact';
 
 function Home(){
     return(
-        <div className='homeContainer'>
-            <TitleBar />
-            <NavBar />
-            <Impact />
+            <div className='homeContainer'>
+                {/* <TitleBar /> */}
+            <div className='navBackgroundCombo' sx={{ position: "relative" }}>
+                <NavBar />
+                <Impact />
+            </div>
+            
         </div>
     );
 }

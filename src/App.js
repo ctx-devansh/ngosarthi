@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './widgets/Home';
 import AboutUs from './widgets/AboutUs';
+import { Box } from '@mui/material';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <Box className="App">
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />}/>  
@@ -17,7 +17,7 @@ function App() {
           <Route path="*" element={<Home />}/>
         </Routes>
       </BrowserRouter>
-    </div>
+    </Box>
     
   );
 }

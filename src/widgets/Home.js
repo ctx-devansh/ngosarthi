@@ -1,17 +1,19 @@
-import TitleBar from './TitleBar';
 import NavBar from './NavBar';
 import Impact from './Impact';
+import OurMission from './OurMission';
+import OurCompass from './OurCompass';
+import { Box } from '@mui/material';
 
 function Home(){
     return(
-            <div className='homeContainer'>
-                {/* <TitleBar /> */}
-            <div className='navBackgroundCombo' sx={{ position: "relative" }}>
+        <Box className='homeContainer'>
+            <Box className='navBackgroundCombo' sx={{ position: "relative" }}>
                 <NavBar />
                 <Impact />
-            </div>
-            
-        </div>
+                <OurMission />
+                <OurCompass />
+            </Box>
+        </Box>
     );
 }
 

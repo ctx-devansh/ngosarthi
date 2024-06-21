@@ -1,0 +1,28 @@
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.achievement-item {
+  background-color: #0d1b52;
+  color: rgb(245, 239, 239);
+  width: 200px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  clip-path: polygon(1% 0, 100% 0, 100% 75%, 47% 100%, 0 75%);
+}
+
+.achievement-item h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.achievement-item p {
+  margin: 20px 0 80px;
+  font-size: 1.5em;
+}

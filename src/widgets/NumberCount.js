@@ -5,12 +5,16 @@ export default function NumberCount(props) {
   // create a ref and declare an instance for each countUp animation
   const countupRef = useRef(null);
   let countUpAnim;
+  // Use the suffix prop to add a suffix to the number
+  const options = {
+    suffix: props.suffix,
+  }
 
   // dynamically import and initialize countUp, sets value of `countUpAnim`
   // you don't have to import this way, but this works best for next.js
   async function initCountUp() {
     const countUpModule = await import('countup.js');
-    countUpAnim = await new countUpModule.CountUp(countupRef.current, props.value);
+    countUpAnim = await new countUpModule.CountUp(countupRef.current, props.value, options);
     if (!countUpAnim.error) {
       countUpAnim.start();
     } else {

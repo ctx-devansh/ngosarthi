@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ngosarthi/static/css/main.3c9662b4.css",
-    "main.js": "/ngosarthi/static/js/main.21d9bcdb.js",
+    "main.css": "/ngosarthi/static/css/main.da833c1d.css",
+    "main.js": "/ngosarthi/static/js/main.a19ac361.js",
+    "static/js/904.3599d7de.chunk.js": "/ngosarthi/static/js/904.3599d7de.chunk.js",
     "static/js/453.4e4eda00.chunk.js": "/ngosarthi/static/js/453.4e4eda00.chunk.js",
     "index.html": "/ngosarthi/index.html",
-    "main.3c9662b4.css.map": "/ngosarthi/static/css/main.3c9662b4.css.map",
-    "main.21d9bcdb.js.map": "/ngosarthi/static/js/main.21d9bcdb.js.map",
+    "main.da833c1d.css.map": "/ngosarthi/static/css/main.da833c1d.css.map",
+    "main.a19ac361.js.map": "/ngosarthi/static/js/main.a19ac361.js.map",
+    "904.3599d7de.chunk.js.map": "/ngosarthi/static/js/904.3599d7de.chunk.js.map",
     "453.4e4eda00.chunk.js.map": "/ngosarthi/static/js/453.4e4eda00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c9662b4.css",
-    "static/js/main.21d9bcdb.js"
+    "static/css/main.da833c1d.css",
+    "static/js/main.a19ac361.js"
   ]
 }

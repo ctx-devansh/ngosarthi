@@ -2,27 +2,69 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap: 150px;
   background-color: #f0f0f0;
-  padding: 30px;
+  padding: 20px 0px;
 }
 
 .achievement-item {
   background-color: #0d1b52;
   color: rgb(245, 239, 239);
-  width: 200px;
+  width: 20rem;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   border-radius: 10px;
   clip-path: polygon(1% 0, 100% 0, 100% 75%, 47% 100%, 0 75%);
 }
 
 .achievement-item h2 {
-  margin: 0;
-  font-size: 3em;
+  margin: 0px;
+  font-size: 2rem;
 }
 
 .achievement-item p {
-  margin: 20px 0 80px;
-  font-size: 1.5em;
+  margin: 0px 0 60px;
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    gap: 50px;
+    padding: 10px 0;
+  }
+
+  .achievement-item {
+    width: 15rem;
+    padding: 8px;
+  }
+
+  .achievement-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .achievement-item p {
+    font-size: 1.5em;
+    margin: 0 0 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements {
+    gap: 20px;
+    padding: 5px 0;
+  }
+
+  .achievement-item {
+    width: 12rem;
+    padding: 5px;
+  }
+
+  .achievement-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .achievement-item p {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+  }
 }

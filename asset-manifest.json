@@ -1,17 +1,39 @@
 {
   "files": {
-    "main.css": "/ngosarthi/static/css/main.da833c1d.css",
-    "main.js": "/ngosarthi/static/js/main.a19ac361.js",
-    "static/js/904.3599d7de.chunk.js": "/ngosarthi/static/js/904.3599d7de.chunk.js",
-    "static/js/453.4e4eda00.chunk.js": "/ngosarthi/static/js/453.4e4eda00.chunk.js",
+    "main.css": "/ngosarthi/static/css/main.8dc27dd7.css",
+    "main.js": "/ngosarthi/static/js/main.0a486f60.js",
+    "static/js/904.8abfc6a3.chunk.js": "/ngosarthi/static/js/904.8abfc6a3.chunk.js",
+    "static/js/453.ad647297.chunk.js": "/ngosarthi/static/js/453.ad647297.chunk.js",
+    "static/media/m1.webp": "/ngosarthi/static/media/m1.6ce3c1bfcd499378d971.webp",
+    "static/media/m21.webp": "/ngosarthi/static/media/m21.d09acb51e197704c59cd.webp",
+    "static/media/m18.webp": "/ngosarthi/static/media/m18.97d58f18dfbba1b44802.webp",
+    "static/media/m2.webp": "/ngosarthi/static/media/m2.1a520c7ed00147d99ec8.webp",
+    "static/media/m14.webp": "/ngosarthi/static/media/m14.de5cf822ed157d93bc11.webp",
+    "static/media/m17.webp": "/ngosarthi/static/media/m17.0f2128058381b30d403e.webp",
+    "static/media/m15.webp": "/ngosarthi/static/media/m15.ea7516b89a598a9755d3.webp",
+    "static/media/m12.webp": "/ngosarthi/static/media/m12.daddf5d0cc5599d4bef0.webp",
+    "static/media/m3.webp": "/ngosarthi/static/media/m3.a7668dcee68aa4ddfc25.webp",
+    "static/media/m8.webp": "/ngosarthi/static/media/m8.174b0ef834526ce6bd78.webp",
+    "static/media/m6.webp": "/ngosarthi/static/media/m6.748c8638dd2a7244fb5e.webp",
+    "static/media/m4.webp": "/ngosarthi/static/media/m4.4d68d42df434fdb60a66.webp",
+    "static/media/m10.webp": "/ngosarthi/static/media/m10.cb13b407df39ecd67098.webp",
+    "static/media/m16.webp": "/ngosarthi/static/media/m16.5c58d991a6fbac7a5349.webp",
+    "static/media/m19.webp": "/ngosarthi/static/media/m19.60149e3814121035bb93.webp",
+    "static/media/m7.webp": "/ngosarthi/static/media/m7.953d4d25d947d62fd322.webp",
+    "static/media/m5.webp": "/ngosarthi/static/media/m5.e3380e84bd4e190c2e1e.webp",
+    "static/media/m20.webp": "/ngosarthi/static/media/m20.86cfb9a104347764ff4a.webp",
+    "static/media/m11.webp": "/ngosarthi/static/media/m11.2f4fd3d075e21ff4ca9f.webp",
+    "static/media/m13.webp": "/ngosarthi/static/media/m13.7cb4623171b1e7461d99.webp",
+    "static/media/m22.webp": "/ngosarthi/static/media/m22.a9adf7c216eeee1bafdf.webp",
+    "static/media/m9.webp": "/ngosarthi/static/media/m9.a0aaaa748de63c013c1b.webp",
     "index.html": "/ngosarthi/index.html",
-    "main.da833c1d.css.map": "/ngosarthi/static/css/main.da833c1d.css.map",
-    "main.a19ac361.js.map": "/ngosarthi/static/js/main.a19ac361.js.map",
-    "904.3599d7de.chunk.js.map": "/ngosarthi/static/js/904.3599d7de.chunk.js.map",
-    "453.4e4eda00.chunk.js.map": "/ngosarthi/static/js/453.4e4eda00.chunk.js.map"
+    "main.8dc27dd7.css.map": "/ngosarthi/static/css/main.8dc27dd7.css.map",
+    "main.0a486f60.js.map": "/ngosarthi/static/js/main.0a486f60.js.map",
+    "904.8abfc6a3.chunk.js.map": "/ngosarthi/static/js/904.8abfc6a3.chunk.js.map",
+    "453.ad647297.chunk.js.map": "/ngosarthi/static/js/453.ad647297.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da833c1d.css",
-    "static/js/main.a19ac361.js"
+    "static/css/main.8dc27dd7.css",
+    "static/js/main.0a486f60.js"
   ]
 }

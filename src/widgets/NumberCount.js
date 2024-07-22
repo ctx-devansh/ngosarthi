@@ -32,7 +32,7 @@ export default function NumberCount(props) {
   // in the jsx use the ref attribute to bind the element to `countupRef`
   return (
     <>
-      <h1 ref={countupRef} onClick={() => {
+      <h1 color='#FFFFFF' ref={countupRef} onClick={() => {
         // replay animation on click
         countUpAnim.reset();
         countUpAnim.start();

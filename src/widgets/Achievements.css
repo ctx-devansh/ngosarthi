@@ -1,70 +1,87 @@
 .achievements {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 150px;
-  background-color: #f0f0f0;
-  padding: 20px 0px;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 10px 0;
+  overflow-x: auto; /* Ensure the container is scrollable on small screens */
 }
 
 .achievement-item {
-  background-color: #0d1b52;
-  color: rgb(245, 239, 239);
-  width: 20rem;
+  background-color: #ffffff; /* Background color to white */
+  color: #000000; /* Text color to black */
+  width: 15rem;
   text-align: center;
   padding: 10px;
+  position: relative;
   border-radius: 10px;
-  clip-path: polygon(1% 0, 100% 0, 100% 75%, 47% 100%, 0 75%);
+  transition: transform 0.3s;
+}
+
+.achievement-item:hover {
+  transform: translateY(-5px);
+}
+
+.achievement-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10%;
+  background-color: #fff;
+  border: none;
 }
 
 .achievement-item h2 {
-  margin: 0px;
-  font-size: 2rem;
+  font-size: 0.8rem; /* Smaller font size for the title */
+  margin: 10px 0 5px;
 }
 
 .achievement-item p {
-  margin: 0px 0 60px;
-  font-size: 2em;
+  font-size: 0.9rem; /* Smaller font size for the description */
+  margin: 5px 0 0;
 }
 
 @media (max-width: 768px) {
   .achievements {
-    gap: 50px;
-    padding: 10px 0;
+    gap: 8px;
+    padding: 8px 0;
   }
 
   .achievement-item {
-    width: 15rem;
+    width: 8rem;
     padding: 8px;
   }
 
   .achievement-item h2 {
-    font-size: 1.5rem;
+    font-size: 0.7rem;
+    margin: 8px 0 4px;
   }
 
   .achievement-item p {
-    font-size: 1.5em;
-    margin: 0 0 40px;
+    font-size: 0.8rem;
+    margin: 4px 0 0;
   }
 }
 
 @media (max-width: 480px) {
   .achievements {
-    gap: 20px;
+    gap: 5px;
     padding: 5px 0;
   }
 
   .achievement-item {
-    width: 12rem;
+    width: 6rem;
     padding: 5px;
   }
 
   .achievement-item h2 {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+    margin: 5px 0 3px;
   }
 
   .achievement-item p {
-    font-size: 1.2em;
-    margin: 0 0 30px;
+    font-size: 0.7rem;
+    margin: 3px 0 0;
   }
 }

@@ -2,12 +2,6 @@ import React from "react";
 import "./Achievements.css";
 import "./NumberCount.js";
 import NumberCount from "./NumberCount.js";
-// import cap from "../assets/cap.png";
-// import school from "../assets/school.png";
-// import map from "../assets/map.png";
-// import people from "../assets/ppl.png";
-// import book from "../assets/book.png";
-// import clean from "../assets/clean.png";
 
 const Achievements = () => {
   return (

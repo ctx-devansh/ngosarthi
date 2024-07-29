@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 
 export default function NumberCount(props) {
-  // create a ref and declare an instance for each countUp animation
   const countupRef = useRef(null);
   let countUpAnim;
 

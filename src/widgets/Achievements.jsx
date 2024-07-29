@@ -3,38 +3,38 @@ import "./Achievements.css";
 import "./NumberCount.js";
 import NumberCount from "./NumberCount.js";
 // import cap from "../assets/cap.png";
-import school from "../assets/school.png";
-import map from "../assets/map.png";
-import people from "../assets/ppl.png";
-import book from "../assets/book.png";
-import clean from "../assets/clean.png";
+// import school from "../assets/school.png";
+// import map from "../assets/map.png";
+// import people from "../assets/ppl.png";
+// import book from "../assets/book.png";
+// import clean from "../assets/clean.png";
 
 const Achievements = () => {
   return (
     <div className="achievements">
       <div className="achievement-item">
-        <img src={map} alt="cap" />
+        <img src="https://i.ibb.co/7kpy0YH/mapNew.png" alt="cap" />
         <h2>
           <NumberCount value="7" suffix="+" />
         </h2>
         <p>states</p>
       </div>
       <div className="achievement-item">
-        <img src={people} alt="people" />
+        <img src="https://i.ibb.co/ctKYqc9/people-New.png" alt="people" />
         <h2>
           <NumberCount value="100000" suffix="+" />
         </h2>
         <p>people sensitised</p>
       </div>
       <div className="achievement-item">
-        <img src={book} alt="book" />
+        <img src="https://i.ibb.co/98Vwx86/education-New.png" alt="book" />
         <h2>
           <NumberCount value="250" suffix="+" />
         </h2>
         <p>children educated</p>
       </div>
       <div className="achievement-item">
-        <img src={clean} alt="clean" />
+        <img src="https://i.ibb.co/YcQJ7XF/sanitary-New.png" alt="clean" />
         <h2>
           <NumberCount value="1500" suffix="+" />
         </h2>
@@ -42,7 +42,7 @@ const Achievements = () => {
         <p>sanitary products distributed</p>
       </div>
       <div className="achievement-item">
-        <img src={school} alt="school" />
+        <img src="https://i.ibb.co/x11TFDW/school-New.png" alt="school" />
         <h2>
           <NumberCount value="2" suffix="+" />
         </h2>

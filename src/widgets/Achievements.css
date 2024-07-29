@@ -25,7 +25,8 @@
 }
 
 .achievement-item img {
-  width: 100%;
+  width: 60%;
+  height: 60%;
   /* aspect-ratio: 1/1; */
   border-radius: 10%;
   background-color: #fff;
@@ -33,12 +34,12 @@
 }
 
 .achievement-item h2 {
-  font-size: 2rem; /* Smaller font size for the title */
+  font-size: 1rem; /* Smaller font size for the title */
   margin: 10px 0 5px;
 }
 
 .achievement-item p {
-  font-size: 1.5rem; /* Smaller font size for the description */
+  font-size: 1rem; /* Smaller font size for the description */
   margin: 5px 0 0;
 }
 

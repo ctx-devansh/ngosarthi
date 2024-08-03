@@ -1,0 +1,194 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: space-between; /* Distribute space between content and animation */
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  max-width: 50%;
+  margin-left: 20px;
+  text-align: left;
+}
+.title {
+  font-size: 2rem;
+  color: #ff8303;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(45deg, #ff8303, #e67300); /* Gradient effect */
+  -webkit-background-clip: text; /* For gradient text effect in WebKit browsers */
+  background-clip: text; /* Gradient text effect */
+  color: transparent; /* Hide default text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.title:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  color: #ff4500; /* Optional: Change text color on hover */
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 20%,
+    transparent 60%
+  ); /* Subtle glow effect */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.title:hover::before {
+  opacity: 1; /* Show the glow effect on hover */
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color: #2d2d2d;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  transform: scale(1.05); /* Adds transform effect */
+}
+
+.main-title-span {
+  font-size: 2.5rem;
+  color: #ff8303;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  transform: scale(1.05); /* Adds transform effect */
+}
+.main-title::before {
+  content: attr(data-shadow); /* Duplicate text effect */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #c0c0c0; /* Silver shade */
+  z-index: -1;
+  transform: scale(1.6);
+  opacity: 0.3;
+  font-family: cursive;
+  /* Optional: Adjust these values to control the shadow positioning */
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333; /* Darker color for better readability */
+  margin-bottom: 1.5rem;
+  line-height: 1.6; /* Improved readability with increased line height */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)
+  ); /* Subtle background gradient */
+  border-left: 4px solid #ff8303; /* Decorative left border */
+  padding-left: 1rem; /* Space for the border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 1rem; /* Consistent padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.description strong {
+  font-weight: 600;
+  color: #ff8303; /* Accent color for emphasis */
+}
+
+.description span {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-style: italic; /* Italic style for additional emphasis */
+}
+
+.description p {
+  margin: 0; /* Remove default margin for paragraph elements */
+}
+
+.button {
+  background-color: #ff8303;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a 3D effect */
+  transition: all 0.3s ease; /* Smooth transition for all effects */
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 10%,
+    transparent 40%
+  );
+  transition: all 0.4s ease;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.button:hover::before {
+  transform: translate(-50%, -50%) scale(1); /* Expands the radial gradient on hover */
+}
+
+.button:hover {
+  background-color: #e67300;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for pressed effect */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.button:active {
+  background-color: #d66100; /* Darker color when clicked */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reset shadow */
+  transform: translateY(2px); /* Slightly lower effect when pressed */
+}
+
+.footer {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 1rem;
+}
+
+.social-links {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff8303;
+}
